@@ -54,4 +54,4 @@ clean:
 	@echo "- Cleaning..."
 	@echo "----------------------------------------------------------------------"
 	@test -d buildroot/ && rm -r buildroot/ || echo "> buildroot/ clean"
-	@test -d packages/ && rm -r packages/ || echo "> packages/ clean"
+#	@test -d packages/ && rm -r packages/ || echo "> packages/ clean"
